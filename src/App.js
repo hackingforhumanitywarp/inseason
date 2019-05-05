@@ -1,17 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import AppRouter from "./AppRouter";
+import Home from "./Home";
+import * as ReactDOM from "react-dom";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Eat Seasonally</h1>
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Message</h2>
-      </header>
-    </div>
-  );
+    return <AppRouter/>;
 }
+
 
 export default App;
