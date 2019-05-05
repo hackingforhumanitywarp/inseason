@@ -9,6 +9,11 @@
   color: #118f13;
 }
 
+.App h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -23,6 +28,18 @@
   font-size: 20px;
   font-weight: normal;
   color: #118f13;
+}
+
+.App .Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .Router ul {
@@ -56,14 +73,10 @@
   text-decoration: underline;
 }
 
-.Router .Buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
 
 .dropdown {
-  margin-top: 20px;
+  display: inline;
+  margin-top: 60px;
   margin-left: 50px;
   margin-right: 50px;
 }
@@ -80,6 +93,13 @@
 
 .Router .dropdown-menu.show a {
   color: #118f13;
+}
+
+.App h3 {
+  margin-top: 20px;
+  font-weight: normal;
+  font-size: 18px;
+
 }
 
 

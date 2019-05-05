@@ -16,7 +16,7 @@ class Produce extends React.Component {
     render() {
         return (
             <div className="App">
-                <h1>Eat local it's good!!!</h1>
+                <h2>Find Produce Near You</h2>
                 <ButtonToolbar/>
                 <Router>
                 <div className="Buttons">
@@ -62,6 +62,7 @@ class Produce extends React.Component {
                         </Dropdown.Menu>
                     </Dropdown>
                         </nav>
+                </div>
 
                     <Route path="/jan_sea" component={Jan_sea} />
                     <Route path="/feb_sea" component={Feb_sea} />
@@ -89,7 +90,7 @@ class Produce extends React.Component {
                     <Route path="/nov_van" component={Nov_van} />
                     <Route path="/dec_van" component={Dec_van} />
 
-                </div>
+
                 </Router>
 
                 </div>
@@ -101,7 +102,7 @@ class Produce extends React.Component {
 }
 
 function Jan_sea() {
-    const list = "Acorn Squash \n Apples\n" +
+    let list = "Acorn Squash \n Apples\n" +
         "Beets\n" +
         "Brussel Sprouts\n" +
         "Butternut Squash\n" +
@@ -125,11 +126,11 @@ function Jan_sea() {
         "Sage\n" +
         "Sunchokes\n" +
         "Sweet Potatoes/Yams";
-    return <h1>{list}</h1>;
+    return <h3>{list}</h3>;
 }
 
 function Feb_sea() {
-    return <h1>Acorn Squash
+    return <h3>Acorn Squash
         Apples
         Beets
         Brussel Sprouts
@@ -151,11 +152,11 @@ function Feb_sea() {
         Rosemary
         Sage
         Sunchokes
-        Sweet Potatoes/Yams</h1>
+        Sweet Potatoes/Yams</h3>
 }
 
 function Mar_sea() {
-    return <h1>Acorn Squash
+    return <h3>Acorn Squash
         Apples
         Beets
         Brussel Sprouts
@@ -178,11 +179,11 @@ function Mar_sea() {
         Rosemary
         Sage
         Sunchokes
-        Sweet Potatoes/Yams</h1>
+        Sweet Potatoes/Yams</h3>
 }
 
 function Apr_sea() {
-    return <h1>Apples
+    return <h3>Apples
         Asparagus
         Beets
         Bok Choy (baby)
@@ -206,11 +207,11 @@ function Apr_sea() {
         Sage
         Spinach
         Sunchokes
-        Turnips</h1>
+        Turnips</h3>
 }
 
 function May_sea() {
-    return <h1>Apples
+    return <h3>Apples
         Arugula
         Asparagus
         Beets
@@ -239,11 +240,11 @@ function May_sea() {
         Spinach
         Strawberries
         Sunchokes
-        Turnips</h1>
+        Turnips</h3>
 }
 
 function Jun_sea() {
-    return <h1>Apples
+    return <h3>Apples
         Apricots
         Artichokes
         Arugula
@@ -292,11 +293,11 @@ function Jun_sea() {
         Turnips
         Watercress
         Zucchini
-    </h1>
+    </h3>
 }
 
 function Jul_sea() {
-    return <h1>Apples
+    return <h3>Apples
         Apricots
         Aritchokes
         Arugula
@@ -356,11 +357,11 @@ function Jul_sea() {
         Tomatoes
         Turnips
         Watercress
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Aug_sea() {
-    return <h1>
+    return <h3>
         Apples
         Apricots
         Artichokes
@@ -429,11 +430,11 @@ function Aug_sea() {
         Watermelon
         Zucchini
 
-    </h1>
+    </h3>
 }
 
 function Sep_sea() {
-    return <h1>Acorn Squash
+    return <h3>Acorn Squash
         Apples
         Artichokes
         Arugula
@@ -501,11 +502,11 @@ function Sep_sea() {
         Tomatoes
         Turnips
         Watermelon
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Oct_sea() {
-    return <h1>Acorn Squash
+    return <h3>Acorn Squash
         Apples
         Artichokes
         Arugula
@@ -566,11 +567,11 @@ function Oct_sea() {
         Tomatoes
         Turnips
         Watermelon
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Nov_sea() {
-    return <h1>Acorn Squash
+    return <h3>Acorn Squash
         Apples
         Asian pears
         Beets
@@ -614,11 +615,11 @@ function Nov_sea() {
         Spinach
         Sunchokes
         Sweet potatoes (yams)
-        Tomatoes</h1>
+        Tomatoes</h3>
 }
 
 function Dec_sea() {
-    return <h1>Acorn Squash
+    return <h3>Acorn Squash
         Apples
         Beets
         Bok Choy (baby)
@@ -650,12 +651,12 @@ function Dec_sea() {
         Sage
         Spinach
         Sunchokes
-        Sweet potatoes (yams)</h1>
+        Sweet potatoes (yams)</h3>
 }
 
 
 function Jan_van() {
-    return <h1>Bay Leaves
+    return <h3>Bay Leaves
         Cabbage - Red
         Cabbage - Savoy
         Carrots
@@ -669,11 +670,11 @@ function Jan_van() {
         Rosemary
         Sage
         Savoy - Winter
-        Thyme</h1>
+        Thyme</h3>
 }
 
 function Feb_van() {
-    return <h1>Bay Leaves
+    return <h3>Bay Leaves
         Chervil
         Cilantro
         Kale
@@ -684,11 +685,11 @@ function Feb_van() {
         Rosemary
         Sage
         Savoy - Winter
-        Thyme</h1>
+        Thyme</h3>
 }
 
 function Mar_van() {
-    return <h1>Bay Leaves
+    return <h3>Bay Leaves
         Chervil
         Chives - Garlic
         Cilantro
@@ -701,11 +702,11 @@ function Mar_van() {
         Sage
         Savoy - Winter
         Sorrel
-        Thyme</h1>
+        Thyme</h3>
 }
 
 function Apr_van() {
-    return <h1>Asparagus,
+    return <h3>Asparagus,
         Bay Leaves,
         Chervil,
         Chives,
@@ -725,11 +726,11 @@ function Apr_van() {
         Sorrel,
         Spinach,
         Tarragon - French,
-        Thyme</h1>
+        Thyme</h3>
 }
 
 function May_van() {
-    return <h1>Asparagus
+    return <h3>Asparagus
         Bay Leaves
         Chard - Swiss
         Chervil
@@ -755,11 +756,11 @@ function May_van() {
         Spinach
         Tarragon - French
         Thyme
-        Turnips - White</h1>
+        Turnips - White</h3>
 }
 
 function Jun_van() {
-    return <h1>Basil
+    return <h3>Basil
         Bay Leaves
         Beets
         Carrots
@@ -799,11 +800,11 @@ function Jun_van() {
         Tarragon - French
         Thyme
         Turnips - White
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Jul_van() {
-    return <h1>Apples
+    return <h3>Apples
         Apricots
         Basil
         Bay Leaves
@@ -857,11 +858,11 @@ function Jul_van() {
         Thyme
         Tomatoes
         Turnips - White
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Aug_van() {
-    return <h1>Apples
+    return <h3>Apples
         Apricots
         Artichokes
         Basil
@@ -933,11 +934,11 @@ function Aug_van() {
         Thyme
         Tomatoes
         Turnips - White
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Sep_van() {
-    return <h1>Apples
+    return <h3>Apples
         Apricots
         Artichokes
         Asparagus
@@ -1025,11 +1026,11 @@ function Sep_van() {
         Thyme
         Tomatoes
         Turnips - White
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Oct_van() {
-    return <h1>Apples
+    return <h3>Apples
         Apricots
         Artichokes
         Asparagus
@@ -1117,11 +1118,11 @@ function Oct_van() {
         Thyme
         Tomatoes
         Turnips - White
-        Zucchini</h1>
+        Zucchini</h3>
 }
 
 function Nov_van() {
-    return <h1>Apples
+    return <h3>Apples
         Bay Leaves
         Beets
         Broccoli
@@ -1164,11 +1165,11 @@ function Nov_van() {
         Sorrel
         Squash - Winter
         Thyme
-        Turnips - White</h1>
+        Turnips - White</h3>
 }
 
 function Dec_van() {
-    return <h1>Bay Leaves
+    return <h3>Bay Leaves
         Beets
         Brussel Sprouts
         Cabbage - Green
@@ -1194,7 +1195,7 @@ function Dec_van() {
         Savoy - Winter
         Squash - Winter
         Thyme
-        Turnips - White</h1>
+        Turnips - White</h3>
 }
 
 
