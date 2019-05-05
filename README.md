@@ -69,5 +69,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ## Credits
 
-Icon made by [author link] from www.flaticon.com 
+Icon made by https://www.flaticon.com/authors/smashicons from www.flaticon.com 
 E.g.: Icon made by Freepik from www.flaticon.com 
