@@ -6,7 +6,7 @@ class Info extends React.Component {
         return (
             <div className="App">
                 <header className="App-header">
-                    <h1>InSeason Info</h1>
+
                     <h2>Why should we eat locally?</h2>
                     <img src={logo} className="App-logo" alt="logo" />
                     <body>Studies show that transport is responsible for about 11% of our food's
