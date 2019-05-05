@@ -3,27 +3,34 @@ import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import Dropdown from "react-bootstrap/Dropdown";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+
 class Produce extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {city: "Vancouver"};
+
+    }
+
+
     render() {
         return (
             <div className="App">
                 <h1>Eat local it's good!!!</h1>
                 <ButtonToolbar/>
+                <Router>
                 <div className="Buttons">
+                    <nav>
                 <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-city">
                         City
                     </Dropdown.Toggle>
                     <Dropdown.Menu>
-                        <Dropdown.Item href="#/action-1">Seattle</Dropdown.Item>
-                        <Dropdown.Item href="#/action-2">Vancouver</Dropdown.Item>
+                        <Link onClick={this.Seattle.bind(this)}>Seattle</Link>
+                        <Link onClick={this.Vancouver.bind(this)}>Vancouver</Link>
                     </Dropdown.Menu>
                 </Dropdown>
 
-                <Router>
-                <div className="Months">
-                    <nav>
-                        <Dropdown>
+                <Dropdown>
                     <Dropdown.Toggle variant="success" id="dropdown-month">
                         Month
                     </Dropdown.Toggle>
@@ -42,6 +49,7 @@ class Produce extends React.Component {
                         <Link to ="/dec">December</Link>
                     </Dropdown.Menu>
                         </Dropdown>
+
                     </nav>
 
                     <Route path="/jan" component={Jan} />
@@ -63,12 +71,20 @@ class Produce extends React.Component {
                 </Router>
 
                 </div>
-                <ButtonToolbar/>
 
-    </div>
+
         );
     }
+
+    Seattle() {
+        this.setState( {city: "Seattle"} );
+    }
+
+    Vancouver() {
+        this.setState( {city: "Vancouver"} );
+    }
 }
+
 
 function Jan() {
     return <h2>January</h2>;
