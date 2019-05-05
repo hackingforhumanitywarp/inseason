@@ -72,6 +72,15 @@
   color: #116e13;
 }
 
+.dropdown-menu.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Router .dropdown-menu.show a {
+  color: #118f13;
+}
 
 
 
