@@ -1,4 +1,6 @@
-This app allows users in the Pacific NorthWest to view what local produce is in season each month of the year.
+#InSeason
+
+InSeason allows users in the Pacific NorthWest to view what local produce is in season each month of the year.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
