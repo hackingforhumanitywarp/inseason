@@ -64,17 +64,17 @@ class Produce extends React.Component {
                         </nav>
 
                     <Route path="/jan_sea" component={Jan_sea} />
-                    <Route path="/feb_sea" component={Feb} />
-                    <Route path="/mar_sea" component={Mar} />
-                    <Route path="/apr_sea" component={Apr} />
-                    <Route path="/may_sea" component={May} />
-                    <Route path="/jun_sea" component={Jun} />
-                    <Route path="/jul_sea" component={Jul} />
-                    <Route path="/aug_sea" component={Aug} />
-                    <Route path="/sep_sea" component={Sep} />
-                    <Route path="/oct_sea" component={Oct} />
-                    <Route path="/nov_sea" component={Nov} />
-                    <Route path="/dec_sea" component={Dec} />
+                    <Route path="/feb_sea" component={Feb_sea} />
+                    <Route path="/mar_sea" component={Mar_sea} />
+                    <Route path="/apr_sea" component={Apr_sea} />
+                    <Route path="/may_sea" component={May_sea} />
+                    <Route path="/jun_sea" component={Jun_sea} />
+                    <Route path="/jul_sea" component={Jul_sea} />
+                    <Route path="/aug_sea" component={Aug_sea} />
+                    <Route path="/sep_sea" component={Sep_sea} />
+                    <Route path="/oct_sea" component={Oct_sea} />
+                    <Route path="/nov_sea" component={Nov_sea} />
+                    <Route path="/dec_sea" component={Dec_sea} />
 
                 </div>
                 </Router>
@@ -88,51 +88,556 @@ class Produce extends React.Component {
 }
 
 function Jan_sea() {
-    return <h1>Seattle</h1>
+    const list = "Acorn Squash \n Apples\n" +
+        "Beets\n" +
+        "Brussel Sprouts\n" +
+        "Butternut Squash\n" +
+        "Carrots\n" +
+        "Celeriac/Celery Root\n" +
+        "Chards\n" +
+        "Garlic\n" +
+        "Hubbard Squash\n" +
+        "Kale\n" +
+        "Leeks\n" +
+        "Mint\n" +
+        "Mizuna\n" +
+        "Onions (yellow/storage)\n" +
+        "Oregano\n" +
+        "Parsley\n" +
+        "Parsnips\n" +
+        "Pears\n" +
+        "Potatoes\n" +
+        "Pumpkins\n" +
+        "Rosemary\n" +
+        "Sage\n" +
+        "Sunchokes\n" +
+        "Sweet Potatoes/Yams";
+    return <h1>{list}</h1>;
 }
 
-function Feb() {
-    // todo
+function Feb_sea() {
+    return <h1>Acorn Squash
+        Apples
+        Beets
+        Brussel Sprouts
+        Butternut Squash
+        Carrots
+        Celeriac/Celery Root
+        Chards
+        Garlic
+        Hubbard Squash
+        Kale
+        Leeks
+        Mint
+        Mizuna
+        Onions (yellow/storage)
+        Oregano
+        Parsnips
+        Pears
+        Potatoes
+        Rosemary
+        Sage
+        Sunchokes
+        Sweet Potatoes/Yams</h1>
 }
 
-function Mar() {
-    // todo
+function Mar_sea() {
+    return <h1>Acorn Squash
+        Apples
+        Beets
+        Brussel Sprouts
+        Butternut Squash
+        Carrots
+        Celeriac/Celery Root
+        Chards
+        Garlic
+        Hubbard Squash
+        Kale
+        Leeks
+        Mint
+        Mizuna
+        Onions (yellow/storage)
+        Oregano
+        Parsnips
+        Pears
+        Potatoes
+        Rapini
+        Rosemary
+        Sage
+        Sunchokes
+        Sweet Potatoes/Yams</h1>
 }
 
-function Apr() {
-    // todo
+function Apr_sea() {
+    return <h1>Apples
+        Asparagus
+        Beets
+        Bok Choy (baby)
+        Carrots
+        Chards
+        Garlic
+        Green Onions/Scallions/Chives
+        Kale
+        Leeks
+        Mint
+        Mizuna
+        Mustard Greens
+        Oregano
+        Parsnips
+        Pears
+        Potatoes
+        Radishes
+        Rapini
+        Rhubarb
+        Rosemary
+        Sage
+        Spinach
+        Sunchokes
+        Turnips</h1>
 }
 
-function May() {
-    // todo
+function May_sea() {
+    return <h1>Apples
+        Arugula
+        Asparagus
+        Beets
+        Beet (green)
+        Bok Choy (baby)
+        Carrots
+        Chards
+        Cilantro/Coliander
+        Collard Greens
+        Garlic
+        Green Onions/Scallions/Chives
+        Green Peas (snap/snow)
+        Lettuce
+        Mint
+        Mizuna
+        Mustard Greens
+        Oregano
+        Pears
+        Pea Vines
+        Potatoes
+        Radishes
+        Rapini
+        Rhubarb
+        Rosemary
+        Sage
+        Spinach
+        Strawberries
+        Sunchokes
+        Turnips</h1>
 }
 
-function Jun() {
-    // todo
+function Jun_sea() {
+    return <h1>Apples
+        Apricots
+        Artichokes
+        Arugula
+        Asparagus
+        Beets
+        Beet green
+        Blackberries
+        Bok Choy (baby)
+        Broccoli
+        Cabbage (napa)
+        Carrots
+        Cauliflower
+        Chards
+        Cherries
+        Cilantro/Coliander
+        Collard Greens
+        Cucumber
+        Endive (Curly/Fresee)
+        Escarole
+        Fennel
+        Garlic
+        Green Onions/Scallions/Chives
+        Green Peas (snap/snow)
+        Kohlrabi (greens)
+        Kohlrabi (root)
+        Lettuce
+        Mint
+        Mustard Greens
+        Nectarines
+        Onions (sweet)
+        Oregano
+        Peaches
+        Pears
+        Pea Vines
+        Plums
+        Radicchio
+        Radishes
+        Raspberries
+        Rhubarb
+        Rosemary
+        Sage
+        Spinach
+        Strawberries
+        Summer squash (white scallop/yellow)
+        Tomatillos
+        Turnips
+        Watercress
+        Zucchini
+    </h1>
 }
 
-function Jul() {
-    // todo
+function Jul_sea() {
+    return <h1>Apples
+        Apricots
+        Aritchokes
+        Arugula
+        Basil
+        Beets
+        Beet green
+        Blackberries
+        Blueberries
+        Bok Choy (baby)
+        Broccoli
+        Cabbage (green/red/savoy)
+        Cabbage (napa)
+        Carrots
+        Cauliflower
+        Chards
+        Cherries
+        Cilantro/Coliander
+        Collard Greens
+        Corn
+        Cucumber
+        Currants
+        Dill
+        Endive (Curly/Fresee)
+        Escarole
+        Fennel
+        Garlic
+        Green Beans
+        Green Onions/Scallions/Chives
+        Green Peas (shell)
+        Green Peas (snap/snow)
+        Kale
+        Kohlrabi (greens)
+        Kohlrabi (root)
+        Lettuce
+        Mint
+        Mustard greens
+        Nectarines
+        Onions (yellow/storage)
+        Onions (sweet)
+        Oregano
+        Parsley
+        Peaches
+        Pears
+        Pea Vines
+        Peppers (sweet)
+        Plums
+        Radicchio
+        Radishes
+        Raspberries
+        Rhubarb
+        Rosemary
+        Sage
+        Spinach
+        Strawberries
+        Summer squash (white scallop/yellow)
+        Tomatillos
+        Tomatoes
+        Turnips
+        Watercress
+        Zucchini</h1>
 }
 
-function Aug() {
-    // todo
+function Aug_sea() {
+    return <h1>
+        Apples
+        Apricots
+        Artichokes
+        Arugula
+        Basil
+        Beets
+        Beet green
+        Blackberries
+        Blueberries
+        Bok Choy (baby)
+        Broccoli
+        Cabbage (green/red/savoy)
+        Cabbage (napa)
+        Cantaloupes
+        Carrots
+        Cauliflower
+        Chards
+        Cherries
+        Cilantro/Coliander
+        Collard Greens
+        Corn
+        Cucumber
+        Currants
+        Dill
+        Endive (Curly/Fresee)
+        Escarole
+        Fennel
+        Garlic
+        Grapes
+        Green Beans
+        Green Onions/Scallions/Chives
+        Green Peas (shell)
+        Green Peas (snap/snow)
+        Honeydew melon
+        Kale
+        Kohlrabi (greens)
+        Kohlrabi (root)
+        Lettuce
+        Mint
+        Mustard greens
+        Nectarines
+        Onions (yellow/storage)
+        Onions (sweet)
+        Oregano
+        Parsley
+        Peaches
+        Pears
+        Pea Vines
+        Peppers (sweet)
+        Plums
+        Pluots
+        Potatoes
+        Radicchio
+        Radishes
+        Raspberries
+        Rhubarb
+        Rosemary
+        Sage
+        Spinach
+        Strawberries
+        Summer squash (white scallop/yellow)
+        Tomatillos
+        Tomatoes
+        Turnips
+        Watercress
+        Watermelon
+        Zucchini
+
+    </h1>
 }
 
-function Sep() {
-    // todo
+function Sep_sea() {
+    return <h1>Acorn Squash
+        Apples
+        Artichokes
+        Arugula
+        Asian pears
+        Basil
+        Beets
+        Beet green
+        Blueberries
+        Bok Choy (baby)
+        Broccoli
+        Buternut squash
+        Cabbage (green/red/savoy)
+        Cabbage (napa)
+        Cataloupes
+        Carrots
+        Cauliflower
+        Celery
+        Chards
+        Cilantro/Coliander
+        Collard Greens
+        Corn
+        Cucumber
+        Currants
+        Dill
+        Endive (Curly/Fresee)
+        Escarole
+        Fennel
+        Garlic
+        Grapes
+        Green Beans
+        Green Onions/Scallions/Chives
+        Green Peas (shell)
+        Honeydew melon
+        Hubbard squash
+        Kale
+        Kohlrabi (greens)
+        Kohlrabi (root)
+        Leeks
+        Lettuce
+        Mint
+        Mustard greens
+        Nectarines
+        Onions (yellow/storage)
+        Onions (sweet)
+        Oregano
+        Parsley
+        Peaches
+        Pears
+        Peppers (sweet)
+        Plums
+        Pluots
+        Potatoes
+        Pumpkins
+        Quinces
+        Radicchio
+        Radishes
+        Rapini
+        Rosemary
+        Sage
+        Spinach
+        Strawberries
+        Summer squash (white scallop/yellow)
+        Sweet potatoes (yams)
+        Tomatillos
+        Tomatoes
+        Turnips
+        Watermelon
+        Zucchini</h1>
 }
 
-function Oct() {
-    // todo
+function Oct_sea() {
+    return <h1>Acorn Squash
+        Apples
+        Artichokes
+        Arugula
+        Asian pears
+        Beets
+        Beet green
+        Bok Choy (baby)
+        Broccoli
+        Brussel Sprouts
+        Buternut squash
+        Cabbage (green/red/savoy)
+        Cabbage (napa)
+        Carrots
+        Cauliflower
+        Celeriac/Celery Root
+        Celery
+        Chards
+        Cilantro/Coliander
+        Collard Greens
+        Corn
+        Cucumber
+        Dill
+        Endive (Curly/Fresee)
+        Escarole
+        Fennel
+        Garlic
+        Grapes
+        Green Beans
+        Green Peas (shell)
+        Hubbard squash
+        Kale
+        Kohlrabi (greens)
+        Kohlrabi (root)
+        Leeks
+        Lettuce
+        Mint
+        Mizuna
+        Mustard greens
+        Onions (yellow/storage)
+        Oregano
+        Parsley
+        Parsnips
+        Pears
+        Peppers (sweet)
+        Potatoes
+        Pumpkins
+        Quinces
+        Radicchio
+        Radishes
+        Rapini
+        Rosemary
+        Sage
+        Spinach
+        Summer squash (white scallop/yellow)
+        Sunchokes
+        Sweet potatoes (yams)
+        Tomatillos
+        Tomatoes
+        Turnips
+        Watermelon
+        Zucchini</h1>
 }
 
-function Nov() {
-    // todo
+function Nov_sea() {
+    return <h1>Acorn Squash
+        Apples
+        Asian pears
+        Beets
+        Bok Choy (baby)
+        Broccoli
+        Brussel Sprouts
+        Buternut squash
+        Cabbage (green/red/savoy)
+        Carrots
+        Cauliflower
+        Celeriac/Celery Root
+        Chards
+        Cilantro/Coliander
+        Collard Greens
+        Escarole
+        Fennel
+        Garlic
+        Grapes
+        Hubbard squash
+        Kale
+        Kohlrabi (greens)
+        Kohlrabi (root)
+        Leeks
+        Lettuce
+        Mint
+        Mizuna
+        Mustard greens
+        Onions (yellow/storage)
+        Oregano
+        Parsley
+        Parsnips
+        Pears
+        Potatoes
+        Pumpkins
+        Quinces
+        Radicchio
+        Radishes
+        Rapini
+        Rosemary
+        Sage
+        Spinach
+        Sunchokes
+        Sweet potatoes (yams)
+        Tomatoes</h1>
 }
 
-function Dec() {
-    // todo
+function Dec_sea() {
+    return <h1>Acorn Squash
+        Apples
+        Beets
+        Bok Choy (baby)
+        Brussel Sprouts
+        Buternut squash
+        Cabbage (green/red/savoy)
+        Carrots
+        Celeriac/Celery Root
+        Chards
+        Collard Greens
+        Escarole
+        Garlic
+        Hubbard squash
+        Kale
+        Kohlrabi (greens)
+        Leeks
+        Mint
+        Mizuna
+        Mustard greens
+        Onions (yellow/storage)
+        Oregano
+        Parsley
+        Parsnips
+        Pears
+        Potatoes
+        Pumpkins
+        Quinces
+        Rosemary
+        Sage
+        Spinach
+        Sunchokes
+        Sweet potatoes (yams)</h1>
 }
 
 
