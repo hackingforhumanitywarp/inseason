@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Produce from "./Produce";
 import Home from "./Home";
+import Info from "./Info";
 
 
 function AppRouter() {
@@ -36,7 +37,7 @@ function Index() {
 }
 
 function About() {
-    return <h2>About</h2>;
+    return <Info/>
 }
 
 function ProduceSelector() {
