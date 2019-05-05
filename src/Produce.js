@@ -3,6 +3,7 @@ import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 import Dropdown from "react-bootstrap/Dropdown";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
+
 class Produce extends React.Component {
     render() {
         return (
@@ -71,43 +72,51 @@ class Produce extends React.Component {
 }
 
 function Jan() {
-    return <h2>January</h2>;
+    return <h1>Seattle</h1>;
 }
 
 function Feb() {
-    return <h2>January</h2>;
+    // todo
 }
+
 function Mar() {
-    return <h2>January</h2>;
+    // todo
 }
+
 function Apr() {
-    return <h2>January</h2>;
+    // todo
 }
+
 function May() {
-    return <h2>January</h2>;
+        // todo
 }
+
 function Jun() {
-    return <h2>January</h2>;
+    // todo
 }
+
 function Jul() {
-    return <h2>January</h2>;
+        // todo
 }
+
 function Aug() {
-    return <h2>January</h2>;
+    // todo
 }
+
 function Sep() {
-    return <h2>January</h2>;
+    // todo
 }
+
 function Oct() {
-    return <h2>January</h2>;
+   // todo
 }
+
 function Nov() {
-    return <h2>January</h2>;
+    // todo
 }
+
 function Dec() {
-    return <h2>January</h2>;
+    // todo
 }
-
-
 
 export default Produce;
